@@ -1,0 +1,125 @@
+KURA TERMS OF USE
+
+Copyright (c) 2026 PROPULSORE. All rights reserved.
+
+Kura ("the Software") is the Kura application for Android and Windows, in the
+form published by PROPULSORE ("the Developer") in the official repository
+https://github.com/PROPULSORE/kura, including its updates and documentation.
+
+The Software is freeware: it is free of charge, but it is NOT open source.
+By installing or using the Software you accept these terms. If you do not
+accept them, do not install or use the Software.
+
+
+1. WHAT YOU MAY DO
+
+The Developer grants you a free, personal, non-exclusive, non-transferable,
+revocable license to download, install and use the Software on devices you own
+or control, for your own personal, non-commercial use.
+
+
+2. WHAT YOU MAY NOT DO
+
+Except where section 3 or the law expressly allows it, you may not:
+
+  a) modify, adapt, translate or create derivative works of the Software;
+  b) decompile, disassemble or otherwise reverse engineer the Software, or try
+     to obtain its source code;
+  c) distribute, publish, share, rent, lend or host copies of the Software,
+     modified or not; point people to the official repository instead;
+  d) sell the Software, charge for it or use it to provide a paid service;
+  e) remove or change any copyright notice, license notice, attribution or
+     these terms.
+
+
+3. THIRD-PARTY LIBRARIES (INCLUDING THE LGPL)
+
+The Software includes libraries made by others, which keep their own licenses.
+The list and the license texts are in the app (Profile > About > Licenses).
+
+In particular, the Software uses mpv (libmpv) and FFmpeg under the GNU Lesser
+General Public License version 3 (LGPL v3). They are shipped as separate files
+that can be replaced. Their license notices, and where to get their source
+code, are in the app and, on Windows, in the "licenses" folder next to
+kura.exe.
+
+Nothing in these terms limits the rights the LGPL v3, or any other open-source
+license, gives you over those libraries. In particular, you may modify or
+replace them with your own versions, and reverse engineer the Software to the
+extent needed to debug such modifications, as those licenses allow. Where these
+terms and a third-party license disagree about that library, the third-party
+license prevails.
+
+
+4. EXTENSIONS AND CONTENT
+
+The Software contains no extensions and no content. Extensions are scripts made
+by third parties, which you choose to install and which read websites that you
+choose. The Developer does not make, distribute, check or endorse any extension
+or any website, and is not affiliated with any of them.
+
+You alone are responsible for the extensions you install, for the websites and
+content you access through them, and for complying with the laws of your
+country and with the terms of those websites, including copyright.
+
+The Software also uses third-party services (such as AniList, TMDB, AniSkip,
+MyAnimeList, Trakt and Google Drive). Your use of them is subject to their own
+terms. The Developer is not affiliated with them, and they do not endorse the
+Software.
+
+
+5. YOUR DATA
+
+Your data stays on your devices and in the places you choose. How the Software
+handles data is described in the privacy policy:
+https://propulsore.github.io/kura/privacy
+
+You are responsible for keeping your recovery code and your backups. Without
+the recovery code, encrypted backups and synced data cannot be read by anyone,
+including the Developer.
+
+
+6. NO WARRANTY
+
+The Software is a beta and is provided "AS IS" and "AS AVAILABLE", without any
+warranty of any kind, express or implied, including warranties of
+merchantability, fitness for a particular purpose and non-infringement. The
+Developer does not guarantee that the Software will work without errors or
+interruptions, that it will keep working with any website or service, or that
+data will never be lost.
+
+
+7. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law, the Developer is not liable for any
+direct, indirect, incidental, special or consequential damages, including loss
+of data, arising from the use of, or the inability to use, the Software,
+extensions or third-party services.
+
+Nothing in these terms excludes or limits liability that cannot be excluded or
+limited by law, such as liability for wilful misconduct or gross negligence, or
+any rights you have as a consumer under mandatory law.
+
+
+8. UPDATES AND END OF THE LICENSE
+
+The Developer may update the Software and these terms at any time; the current
+terms are always in the official repository. Using a new version means
+accepting the terms published with it.
+
+The license ends automatically if you break these terms. You may end it at any
+time by deleting the Software. When it ends, you must stop using the Software
+and delete it. Sections 3 to 7 and 9 remain in effect.
+
+
+9. GOVERNING LAW
+
+These terms are governed by Italian law. If a provision is found invalid, the
+rest remains in effect. Mandatory consumer protection rules of the country
+where you live still apply.
+
+
+10. CONTACT
+
+Questions about these terms: open an issue at
+https://github.com/PROPULSORE/kura/issues

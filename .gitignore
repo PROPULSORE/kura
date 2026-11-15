@@ -1,0 +1,45 @@
+# This repository is public: it holds only releases, documents and the site.
+# These patterns stop a secret or the app's code from being committed by mistake.
+
+# Keys, certificates, signing
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.pub
+key.properties
+keys/
+
+# Secrets and local config
+.env
+.env.*
+google.json
+client_secret*.json
+*.secrets
+servizi.txt
+
+# Source code and build output never belong here
+*.dart
+*.go
+pubspec.lock
+build/
+.dart_tool/
+debug-info/
+symbols/
+
+# Release files go to GitHub Releases, not to git
+*.apk
+*.aab
+*.exe
+*.msix
+*.zip
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini

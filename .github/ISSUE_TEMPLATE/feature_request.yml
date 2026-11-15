@@ -1,0 +1,37 @@
+name: Feature request
+description: An idea to make Kura better.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One idea per issue, please. You can write in English or Italian.
+        Requests to add extensions or websites to Kura are not accepted:
+        Kura does not make or distribute extensions.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: The need or the problem, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How it could work in Kura.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Both
+        - Android
+        - Windows
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Examples from other apps, sketches, screenshots.

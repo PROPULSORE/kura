@@ -1,0 +1,73 @@
+name: Bug report
+description: Something in Kura does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report. You can write in English or Italian.
+        Security problems go in a private report instead: see SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Kura version
+      description: Shown in Profile › About.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - Windows
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and system version
+      placeholder: "Samsung Galaxy Tab S9, Android 14 / Windows 11"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+      description: Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics log
+      description: |
+        Profile › Diagnostics › Copy. Read it before pasting: it hides keys and
+        tokens, but it shows titles and website addresses. Remove what you do
+        not want to share.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I am using the latest release.
+          required: true
+        - label: I searched the existing issues.
+          required: true
