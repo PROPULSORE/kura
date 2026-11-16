@@ -20,7 +20,8 @@ Kura is in **beta**.
 
 ## Download
 
-- **Android:** [kura-android.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android.apk)
+- **Android:** [kura-android-arm64.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm64.apk)
+- **Android (old phones, Android TV):** [kura-android-arm32.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm32.apk)
 - **Windows (installer, 64-bit):** [kura-setup-x64.exe](https://github.com/PROPULSORE/kura/releases/latest/download/kura-setup-x64.exe)
 - **Windows (portable, 64-bit):** [kura-windows-x64.zip](https://github.com/PROPULSORE/kura/releases/latest/download/kura-windows-x64.zip)
 - **Own sync server (optional):** [guide](server)

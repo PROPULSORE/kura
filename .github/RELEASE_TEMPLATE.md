@@ -16,7 +16,8 @@ and the README download links rely on them.
 
 | Platform | File |
 |---|---|
-| Android | [kura-android.apk](https://github.com/PROPULSORE/kura/releases/download/vX.Y.Z/kura-android.apk) |
+| Android | [kura-android-arm64.apk](https://github.com/PROPULSORE/kura/releases/download/vX.Y.Z/kura-android-arm64.apk) |
+| Android (old phones, Android TV) | [kura-android-arm32.apk](https://github.com/PROPULSORE/kura/releases/download/vX.Y.Z/kura-android-arm32.apk) |
 | Windows (installer) | [kura-setup-x64.exe](https://github.com/PROPULSORE/kura/releases/download/vX.Y.Z/kura-setup-x64.exe) |
 | Windows (portable) | [kura-windows-x64.zip](https://github.com/PROPULSORE/kura/releases/download/vX.Y.Z/kura-windows-x64.zip) |
 | Sync server, Linux 64-bit (optional) | [kura-server-linux-amd64](https://github.com/PROPULSORE/kura/releases/download/vX.Y.Z/kura-server-linux-amd64) |
@@ -25,7 +26,7 @@ and the README download links rely on them.
 
 ## How to update
 
-- **Android:** download `kura-android.apk` and install it over the old version.
+- **Android:** download `kura-android-arm64.apk` (or `-arm32` on old devices) and install it over the old version.
   Your data stays.
 - **Windows (installer):** run `kura-setup-x64.exe`; it updates the installed
   version and keeps your data.
@@ -38,7 +39,8 @@ Windows may show a SmartScreen warning because Kura is not signed: click
 ## SHA-256 checksums
 
 ```
-<sha256>  kura-android.apk
+<sha256>  kura-android-arm64.apk
+<sha256>  kura-android-arm32.apk
 <sha256>  kura-setup-x64.exe
 <sha256>  kura-windows-x64.zip
 <sha256>  kura-server-linux-amd64

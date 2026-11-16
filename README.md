@@ -1,7 +1,7 @@
 # Kura
 
 [![Latest release](https://img.shields.io/github/v/release/PROPULSORE/kura?label=Latest%20release&logo=github)](https://github.com/PROPULSORE/kura/releases/latest)
-[![Android](https://img.shields.io/badge/-Android-34d399?logo=android&logoColor=white)](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android.apk)
+[![Android](https://img.shields.io/badge/-Android-34d399?logo=android&logoColor=white)](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm64.apk)
 [![Windows](https://img.shields.io/badge/-Windows-22d3ee?logo=windows&logoColor=white)](https://github.com/PROPULSORE/kura/releases/latest/download/kura-setup-x64.exe)
 
 **English** · [Italiano](#italiano)
@@ -36,7 +36,8 @@ source code is not public.
 
 | Platform | File |
 |---|---|
-| Android | [kura-android.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android.apk) |
+| Android | [kura-android-arm64.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm64.apk) |
+| Android (old phones, Android TV) | [kura-android-arm32.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm32.apk) |
 | Windows (installer) | [kura-setup-x64.exe](https://github.com/PROPULSORE/kura/releases/latest/download/kura-setup-x64.exe) |
 | Windows (portable) | [kura-windows-x64.zip](https://github.com/PROPULSORE/kura/releases/latest/download/kura-windows-x64.zip) |
 
@@ -47,7 +48,9 @@ Download Kura only from here.
 
 ### Android
 
-1. Download `kura-android.apk` on the phone or tablet and open it.
+1. Download `kura-android-arm64.apk` on the phone or tablet and open it
+   (`kura-android-arm32.apk` only for old phones and Android TV boxes that
+   say the app is not compatible).
 2. If Android asks, allow your browser or file manager to **install unknown
    apps**, then go back and tap **Install**.
 
@@ -167,7 +170,8 @@ codice sorgente non è pubblico.
 
 ### Scaricare
 
-- Android: [kura-android.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android.apk)
+- Android: [kura-android-arm64.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm64.apk)
+- Android (telefoni vecchi, Android TV): [kura-android-arm32.apk](https://github.com/PROPULSORE/kura/releases/latest/download/kura-android-arm32.apk)
 - Windows (installer): [kura-setup-x64.exe](https://github.com/PROPULSORE/kura/releases/latest/download/kura-setup-x64.exe)
 - Windows (portatile): [kura-windows-x64.zip](https://github.com/PROPULSORE/kura/releases/latest/download/kura-windows-x64.zip)
 
@@ -176,7 +180,8 @@ Scarica Kura solo da qui.
 
 ### Installare
 
-**Android:** scarica `kura-android.apk` e aprilo. Se Android lo chiede,
+**Android:** scarica `kura-android-arm64.apk` (o `kura-android-arm32.apk`
+se Android dice che non è compatibile) e aprilo. Se Android lo chiede,
 permetti al browser o al gestore file di **installare app sconosciute**, poi
 torna indietro e tocca **Installa**.
 
